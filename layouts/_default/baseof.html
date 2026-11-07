@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} — {{ site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ site.Title }}{{ else if eq .Kind "404" }}Page not found — {{ site.Title }}{{ else }}{{ .Title }} — {{ site.Title }}{{ end }}</title>
 {{- $desc := .Params.description | default site.Params.description }}
 <meta name="description" content="{{ $desc }}">
 <link rel="icon" href="/favicon-32.png" sizes="32x32">
