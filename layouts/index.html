@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="hero">
+  <picture>
+    <source media="(max-width: 760px)" srcset="/img/hero-mobile.webp">
+    <img src="/img/hero.webp" alt="">
+  </picture>
+  <div class="tint"></div>
+  <div class="hero-meta">
+    <div>
+      <h1>{{ site.Title }}</h1>
+      <div class="role">{{ site.Params.role }}</div>
+    </div>
+    <div class="where">{{ site.Params.location }}</div>
+  </div>
+</section>
+{{ end }}

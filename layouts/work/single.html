@@ -1,0 +1,52 @@
+{{ define "main" }}
+<article class="work">
+  <h1>{{ .Title }}</h1>
+  <p class="lede">{{ .Params.lede }}</p>
+  <a class="pdflink" href="{{ site.Params.cv }}" target="_blank" rel="noopener">CV (PDF)</a>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  <section>
+    <h2>Thesis</h2>
+    <ol class="list">
+      <li><span class="pt"><a href="{{ site.Data.thesis.url }}" target="_blank" rel="noopener">{{ site.Data.thesis.title }}</a></span>
+        <span class="pa">{{ site.Data.thesis.venue }}, {{ site.Data.thesis.year }}.
+          &middot; <a href="{{ site.Data.thesis.url }}" target="_blank" rel="noopener">purl</a></span></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Journal papers</h2>
+    <ol class="list">
+      {{- range where site.Data.papers "kind" "Journal" }}
+      <li><span class="pt">{{ .title }}</span>
+        <span class="pa">{{ .authors }}. <em>{{ .venue }}</em>, {{ .detail }}.
+          {{- with .doi }} &middot; <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">doi</a>{{ end }}</span></li>
+      {{- end }}
+    </ol>
+  </section>
+
+  <section>
+    <h2>Conference papers</h2>
+    <ol class="list">
+      {{- range where site.Data.papers "kind" "Conference" }}
+      <li><span class="pt">{{ .title }}</span>
+        <span class="pa">{{ .authors }}. <em>{{ .venue }}</em>, {{ .detail }}.
+          {{- with .doi }} &middot; <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">doi</a>{{ end }}</span></li>
+      {{- end }}
+    </ol>
+  </section>
+
+  <section>
+    <h2>Patents</h2>
+    <ol class="list">
+      {{- range site.Data.patents }}
+      <li><span class="pt">{{ .title }}</span>
+        <span class="pa">{{ .org }} &middot; {{ .nums }} &middot; {{ .note }}</span></li>
+      {{- end }}
+    </ol>
+  </section>
+</article>
+{{ end }}

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="life">
+  <div class="life-head">
+    <h1>{{ .Title }}</h1>
+    <div class="meta">Life in review &amp; photo stories, 2020</div>
+  </div>
+  <div class="book-wrap">
+    <div id="book">
+      {{- range seq 1 26 }}
+      <div class="page"><img src="/book/p{{ printf "%02d" . }}.webp" alt="Page {{ . }}"></div>
+      {{- end }}
+    </div>
+  </div>
+  <div class="book-ctl">
+    <button id="prev">&larr; Back</button>
+    <span class="num" id="num">1 / 26</span>
+    <button id="next">Next &rarr;</button>
+  </div>
+  <p class="hint">Drag a page corner, click the edge, or use &larr; &rarr;</p>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="/js/page-flip.browser.js"></script>
+<script src="/js/book.js"></script>
+{{ end }}

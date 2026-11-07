@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{- $alb := index site.Data.albums .Params.album }}
+{{- $coverIdx := sub (int $alb.cover) 1 }}
+{{- $cover := index $alb.photos $coverIdx }}
+<article>
+  <section class="lead">
+    <img src="/albums/{{ .Params.album }}/{{ $cover.file }}" alt="{{ .Title }}"
+         data-shot data-pos="{{ $coverIdx }}" data-full="/albums/{{ .Params.album }}/{{ $cover.file }}">
+  </section>
+  <section class="album-head">
+    <div><div class="kicker">Album</div><h1>{{ .Title }}</h1></div>
+    <div class="meta">{{ $alb.count }} photographs</div>
+  </section>
+  <section class="grid">
+    {{- range $i, $ph := $alb.photos }}
+    {{- if ne $i $coverIdx }}
+    {{- $ar := printf "%.4f" (div (float $ph.w) (float $ph.h)) }}
+    <figure data-ar="{{ $ar }}">
+      <img src="/albums/{{ $.Params.album }}/{{ $ph.thumb }}"
+           srcset="/albums/{{ $.Params.album }}/{{ $ph.thumb }} 600w, /albums/{{ $.Params.album }}/{{ $ph.file }} 1600w"
+           sizes="(max-width:700px) 46vw, 31vw" alt="{{ $.Title }} {{ printf "%02d" (add $i 1) }}"
+           loading="lazy" data-shot data-pos="{{ $i }}" data-full="/albums/{{ $.Params.album }}/{{ $ph.file }}">
+      <figcaption>{{ printf "%02d" (add $i 1) }}</figcaption>
+    </figure>
+    {{- end }}
+    {{- end }}
+  </section>
+  <div class="album-foot">
+    {{- with .NextInSection }}<a href="{{ .RelPermalink }}">&larr; {{ .Title }}</a>
+    {{- else }}<a href="/photos/">&larr; All albums</a>{{ end }}
+    <span>{{ with .PrevInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>
+    {{- else }}<a href="/photos/">All albums &rarr;</a>{{ end }}</span>
+  </div>
+</article>
+{{ partial "lightbox.html" . }}
+{{ end }}
+
+{{ define "scripts" }}<script src="/js/gallery.js"></script>{{ end }}

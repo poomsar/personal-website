@@ -1,0 +1,548 @@
+{
+ "01-taiwan": {
+  "title": "Taiwan",
+  "count": 10,
+  "cover": 5,
+  "order": 1,
+  "photos": [
+   {
+    "file": "01.webp",
+    "thumb": "01-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "HP5_14.jpg"
+   },
+   {
+    "file": "02.webp",
+    "thumb": "02-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "C200_27.jpg"
+   },
+   {
+    "file": "03.webp",
+    "thumb": "03-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "HP5_19.jpg"
+   },
+   {
+    "file": "04.webp",
+    "thumb": "04-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "C200_23.jpg"
+   },
+   {
+    "file": "05.webp",
+    "thumb": "05-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "C200_13.jpg"
+   },
+   {
+    "file": "06.webp",
+    "thumb": "06-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "GB200_31.jpg"
+   },
+   {
+    "file": "07.webp",
+    "thumb": "07-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "GB200_32.jpg"
+   },
+   {
+    "file": "08.webp",
+    "thumb": "08-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "GB200_22.jpg"
+   },
+   {
+    "file": "09.webp",
+    "thumb": "09-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "GB200_10.jpg"
+   },
+   {
+    "file": "10.webp",
+    "thumb": "10-t.webp",
+    "w": 1243,
+    "h": 898,
+    "source": "IMG_1268.JPG"
+   }
+  ]
+ },
+ "02-tokyo-kyoto": {
+  "title": "Tokyo & Kyoto",
+  "count": 10,
+  "cover": 3,
+  "order": 2,
+  "photos": [
+   {
+    "file": "01.webp",
+    "thumb": "01-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00363.ARW"
+   },
+   {
+    "file": "02.webp",
+    "thumb": "02-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00336.ARW"
+   },
+   {
+    "file": "03.webp",
+    "thumb": "03-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00313.ARW"
+   },
+   {
+    "file": "04.webp",
+    "thumb": "04-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00269.ARW"
+   },
+   {
+    "file": "05.webp",
+    "thumb": "05-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00228.ARW"
+   },
+   {
+    "file": "06.webp",
+    "thumb": "06-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00138.ARW"
+   },
+   {
+    "file": "07.webp",
+    "thumb": "07-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00066.ARW"
+   },
+   {
+    "file": "08.webp",
+    "thumb": "08-t.webp",
+    "w": 1067,
+    "h": 1600,
+    "source": "DSC00032.ARW"
+   },
+   {
+    "file": "09.webp",
+    "thumb": "09-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00016.ARW"
+   },
+   {
+    "file": "10.webp",
+    "thumb": "10-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "DSC00005.ARW"
+   }
+  ]
+ },
+ "03-hokkaido": {
+  "title": "Hokkaido",
+  "count": 10,
+  "cover": 7,
+  "order": 3,
+  "photos": [
+   {
+    "file": "01.webp",
+    "thumb": "01-t.webp",
+    "w": 1066,
+    "h": 1600,
+    "source": "IMG_0875.JPG"
+   },
+   {
+    "file": "02.webp",
+    "thumb": "02-t.webp",
+    "w": 1067,
+    "h": 1600,
+    "source": "IMG_0284.JPG"
+   },
+   {
+    "file": "03.webp",
+    "thumb": "03-t.webp",
+    "w": 1600,
+    "h": 1048,
+    "source": "IMG_0816.JPG"
+   },
+   {
+    "file": "04.webp",
+    "thumb": "04-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "IMG_0672.JPG"
+   },
+   {
+    "file": "05.webp",
+    "thumb": "05-t.webp",
+    "w": 1174,
+    "h": 1600,
+    "source": "IMG_0634.JPG"
+   },
+   {
+    "file": "06.webp",
+    "thumb": "06-t.webp",
+    "w": 1600,
+    "h": 960,
+    "source": "IMG_0569.JPG"
+   },
+   {
+    "file": "07.webp",
+    "thumb": "07-t.webp",
+    "w": 1600,
+    "h": 883,
+    "source": "IMG_0517.JPG"
+   },
+   {
+    "file": "08.webp",
+    "thumb": "08-t.webp",
+    "w": 1600,
+    "h": 1018,
+    "source": "IMG_0368.JPG"
+   },
+   {
+    "file": "09.webp",
+    "thumb": "09-t.webp",
+    "w": 1600,
+    "h": 1048,
+    "source": "IMG_0318.JPG"
+   },
+   {
+    "file": "10.webp",
+    "thumb": "10-t.webp",
+    "w": 1600,
+    "h": 988,
+    "source": "IMG_0145.JPG"
+   }
+  ]
+ },
+ "04-vegas-arizona": {
+  "title": "Las Vegas & Arizona",
+  "count": 10,
+  "cover": 3,
+  "order": 4,
+  "photos": [
+   {
+    "file": "01.webp",
+    "thumb": "01-t.webp",
+    "w": 1600,
+    "h": 765,
+    "source": "IMG_7344.JPG"
+   },
+   {
+    "file": "02.webp",
+    "thumb": "02-t.webp",
+    "w": 1153,
+    "h": 1600,
+    "source": "IMG_8662.JPG"
+   },
+   {
+    "file": "03.webp",
+    "thumb": "03-t.webp",
+    "w": 1600,
+    "h": 1003,
+    "source": "IMG_8787.JPG"
+   },
+   {
+    "file": "04.webp",
+    "thumb": "04-t.webp",
+    "w": 1600,
+    "h": 1012,
+    "source": "IMG_7412.JPG"
+   },
+   {
+    "file": "05.webp",
+    "thumb": "05-t.webp",
+    "w": 1600,
+    "h": 771,
+    "source": "IMG_8189.JPG"
+   },
+   {
+    "file": "06.webp",
+    "thumb": "06-t.webp",
+    "w": 1600,
+    "h": 995,
+    "source": "IMG_7858.JPG"
+   },
+   {
+    "file": "07.webp",
+    "thumb": "07-t.webp",
+    "w": 1600,
+    "h": 1016,
+    "source": "IMG_7719.JPG"
+   },
+   {
+    "file": "08.webp",
+    "thumb": "08-t.webp",
+    "w": 1084,
+    "h": 1600,
+    "source": "IMG_7473.JPG"
+   },
+   {
+    "file": "09.webp",
+    "thumb": "09-t.webp",
+    "w": 1125,
+    "h": 1600,
+    "source": "IMG_7523.JPG"
+   },
+   {
+    "file": "10.webp",
+    "thumb": "10-t.webp",
+    "w": 1600,
+    "h": 975,
+    "source": "IMG_7773.JPG"
+   }
+  ]
+ },
+ "05-chiang-mai": {
+  "title": "Chiang Mai",
+  "count": 10,
+  "cover": 1,
+  "order": 5,
+  "photos": [
+   {
+    "file": "01.webp",
+    "thumb": "01-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "GB200-29.jpg"
+   },
+   {
+    "file": "02.webp",
+    "thumb": "02-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "GB200-20.jpg"
+   },
+   {
+    "file": "03.webp",
+    "thumb": "03-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "GB2003.jpg"
+   },
+   {
+    "file": "04.webp",
+    "thumb": "04-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "C200-19.jpg"
+   },
+   {
+    "file": "05.webp",
+    "thumb": "05-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "C200-12.jpg"
+   },
+   {
+    "file": "06.webp",
+    "thumb": "06-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "C2009.jpg"
+   },
+   {
+    "file": "07.webp",
+    "thumb": "07-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "Hp5-9.jpg"
+   },
+   {
+    "file": "08.webp",
+    "thumb": "08-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "Hp5-6.jpg"
+   },
+   {
+    "file": "09.webp",
+    "thumb": "09-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "Hp51.jpg"
+   },
+   {
+    "file": "10.webp",
+    "thumb": "10-t.webp",
+    "w": 1600,
+    "h": 1061,
+    "source": "Hp57.jpg"
+   }
+  ]
+ },
+ "06-san-francisco": {
+  "title": "San Francisco",
+  "count": 10,
+  "cover": 2,
+  "order": 6,
+  "photos": [
+   {
+    "file": "01.webp",
+    "thumb": "01-t.webp",
+    "w": 1600,
+    "h": 1041,
+    "source": "IMG_7089.JPG"
+   },
+   {
+    "file": "02.webp",
+    "thumb": "02-t.webp",
+    "w": 1014,
+    "h": 1600,
+    "source": "IMG_7177.JPG"
+   },
+   {
+    "file": "03.webp",
+    "thumb": "03-t.webp",
+    "w": 1067,
+    "h": 1600,
+    "source": "IMG_7026.JPG"
+   },
+   {
+    "file": "04.webp",
+    "thumb": "04-t.webp",
+    "w": 1600,
+    "h": 979,
+    "source": "IMG_6900.JPG"
+   },
+   {
+    "file": "05.webp",
+    "thumb": "05-t.webp",
+    "w": 1600,
+    "h": 1002,
+    "source": "IMG_6876.JPG"
+   },
+   {
+    "file": "06.webp",
+    "thumb": "06-t.webp",
+    "w": 1600,
+    "h": 1021,
+    "source": "IMG_7141.JPG"
+   },
+   {
+    "file": "07.webp",
+    "thumb": "07-t.webp",
+    "w": 1600,
+    "h": 934,
+    "source": "DSC00369.jpg"
+   },
+   {
+    "file": "08.webp",
+    "thumb": "08-t.webp",
+    "w": 1600,
+    "h": 927,
+    "source": "DSC00367.jpg"
+   },
+   {
+    "file": "09.webp",
+    "thumb": "09-t.webp",
+    "w": 1600,
+    "h": 930,
+    "source": "DSC00366.jpg"
+   },
+   {
+    "file": "10.webp",
+    "thumb": "10-t.webp",
+    "w": 1600,
+    "h": 938,
+    "source": "DSC00381.jpg"
+   }
+  ]
+ },
+ "07-stanford": {
+  "title": "Stanford",
+  "count": 10,
+  "cover": 2,
+  "order": 7,
+  "photos": [
+   {
+    "file": "01.webp",
+    "thumb": "01-t.webp",
+    "w": 1057,
+    "h": 1600,
+    "source": "photo 22.tif"
+   },
+   {
+    "file": "02.webp",
+    "thumb": "02-t.webp",
+    "w": 1600,
+    "h": 1173,
+    "source": "1075368_10153038008835461_1564815364_o.jpg"
+   },
+   {
+    "file": "03.webp",
+    "thumb": "03-t.webp",
+    "w": 1108,
+    "h": 1600,
+    "source": "57403_10153038055020461_590429235_o.jpg"
+   },
+   {
+    "file": "04.webp",
+    "thumb": "04-t.webp",
+    "w": 1600,
+    "h": 752,
+    "source": "1072411_10152979861690461_719428889_o.jpg"
+   },
+   {
+    "file": "05.webp",
+    "thumb": "05-t.webp",
+    "w": 1600,
+    "h": 1067,
+    "source": "IMG_6320.JPG"
+   },
+   {
+    "file": "06.webp",
+    "thumb": "06-t.webp",
+    "w": 1043,
+    "h": 1600,
+    "source": "hoover.jpg"
+   },
+   {
+    "file": "07.webp",
+    "thumb": "07-t.webp",
+    "w": 1015,
+    "h": 1600,
+    "source": "law_school.jpg"
+   },
+   {
+    "file": "08.webp",
+    "thumb": "08-t.webp",
+    "w": 1600,
+    "h": 965,
+    "source": "ladder.jpg"
+   },
+   {
+    "file": "09.webp",
+    "thumb": "09-t.webp",
+    "w": 1600,
+    "h": 1600,
+    "source": "frame2.jpg"
+   },
+   {
+    "file": "10.webp",
+    "thumb": "10-t.webp",
+    "w": 1037,
+    "h": 1600,
+    "source": "1.jpg"
+   }
+  ]
+ }
+}

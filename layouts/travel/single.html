@@ -1,0 +1,40 @@
+{{ define "head" }}<link rel="stylesheet" href="/vendor/leaflet.css">{{ end }}
+
+{{ define "main" }}
+{{- $visited := site.Data.visited }}
+<article class="travel">
+  <div class="travel-head">
+    <h1>{{ .Title }}</h1>
+    <div class="meta">{{ len $visited }} countries so far<br>ticked in the picker</div>
+  </div>
+  <div id="map"></div>
+  <div class="regions">
+    {{- range $region := slice "Asia" "Europe" "Africa" "Americas" "Oceania" }}
+    {{- $rows := where $visited "region" $region }}
+    {{- if $rows }}
+    {{- $span := cond (gt (len $rows) 13) 2 1 }}
+    <div class="region" style="grid-column:span {{ $span }}">
+      <h3>{{ $region }}</h3>
+      <div class="items" style="columns:{{ $span }}">
+        {{- range $i, $p := $visited }}
+        {{- if eq $p.region $region }}
+        <p data-i="c{{ $i }}">{{ $p.name }}</p>
+        {{- end }}
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+    {{- end }}
+  </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+{{- $arr := slice }}
+{{- range $i, $p := site.Data.visited }}
+  {{- $arr = $arr | append (dict "n" $p.name "lat" $p.lat "lon" $p.lon "i" (printf "c%d" $i)) }}
+{{- end }}
+<script>window.PLACES = {{ $arr | jsonify | safeJS }};</script>
+<script src="/vendor/leaflet.js"></script>
+<script src="/js/map.js"></script>
+{{ end }}

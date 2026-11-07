@@ -1,0 +1,41 @@
+baseURL = "https://purimladpli.net/"
+languageCode = "en-us"
+title = "Purim Ladpli"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Blade structural engineer and photographer. Bangkok."
+  email = "purimladpli@gmail.com"
+  role = "Wind turbine blades engineer"
+  location = "Bangkok, Thailand"
+  linkedin = "https://th.linkedin.com/in/purim-ladpli-10641852"
+  instagram = "https://instagram.com/poomsar"
+  twitter = "https://twitter.com/poomsar"
+  facebook = "https://www.facebook.com/purim.ladpli"
+  cv = "/cv/ladpli-cv.pdf"
+
+[menu]
+  [[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 1
+  [[menu.main]]
+    name = "Photos"
+    url = "/photos/"
+    weight = 2
+  [[menu.main]]
+    name = "Travel"
+    url = "/travel/"
+    weight = 3
+  [[menu.main]]
+    name = "Life"
+    url = "/life/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+[markup.goldmark.renderer]
+  unsafe = true

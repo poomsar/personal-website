@@ -1,0 +1,200 @@
+[
+ {
+  "kind": "Journal",
+  "year": 2023,
+  "title": "A full-scale wind turbine blade monitoring campaign: detection of damage initiation and progression using medium-frequency active vibrations",
+  "authors": "Fremmelev, Ladpli, Orlowitz, Dervilis, McGugan, Branner",
+  "venue": "Structural Health Monitoring",
+  "detail": "22(6), 4171–4193, 2023",
+  "doi": "10.1177/14759217231163471"
+ },
+ {
+  "kind": "Conference",
+  "year": 2023,
+  "title": "Dimensionality reduction of active vibration data for detection and monitoring of progressive damage in wind turbine blade",
+  "authors": "Fremmelev, Ladpli, Orlowitz, Dervilis",
+  "venue": "IWSHM",
+  "detail": "2023",
+  "doi": "10.12783/shm2023/37044"
+ },
+ {
+  "kind": "Journal",
+  "year": 2023,
+  "title": "Feasibility study on a full‐scale wind turbine blade monitoring campaign: Comparing performance and robustness of features extracted from medium‐frequency active vibrations",
+  "authors": "Fremmelev, Ladpli, Orlowitz, Dervilis, McGugan, Branner",
+  "venue": "Wind Energy",
+  "detail": "26(10), 1027–1048, 2023",
+  "doi": "10.1002/we.2854"
+ },
+ {
+  "kind": "Journal",
+  "year": 2022,
+  "title": "A Bayesian Method for Material Identification of Composite Plates via Dispersion Curves",
+  "authors": "Haywood-Alexander, Dervilis, Worden, Mills, Ladpli, Rogers",
+  "venue": "Sensors",
+  "detail": "23(1), 185, 2022",
+  "doi": "10.3390/s23010185"
+ },
+ {
+  "kind": "Journal",
+  "year": 2022,
+  "title": "Structural health monitoring of 52-meter wind turbine blade: Detection of damage propagation during fatigue testing",
+  "authors": "Fremmelev, Ladpli, Orlowitz, Bernhammer, McGugan, Branner",
+  "venue": "Data-Centric Engineering",
+  "detail": "3, 2022",
+  "doi": "10.1017/dce.2022.20"
+ },
+ {
+  "kind": "Conference",
+  "year": 2019,
+  "title": "Health Prognostics of Lithium-ion Batteries and Battery-Integrated Structures",
+  "authors": "Ladpli, Liu, Kopsaftopoulos, Chang",
+  "venue": "IWSHM",
+  "detail": "2019",
+  "doi": "10.12783/shm2019/32215"
+ },
+ {
+  "kind": "Journal",
+  "year": 2018,
+  "title": "Characterization of Distributed Microfabricated Strain Gauges on Stretchable Sensor Networks for Structural Applications",
+  "authors": "Chen, Topac, Smith, Ladpli, Liu, Chang",
+  "venue": "Sensors",
+  "detail": "18(10), 3260, 2018",
+  "doi": "10.3390/s18103260"
+ },
+ {
+  "kind": "Conference",
+  "year": 2018,
+  "title": "Estimating Lithium-ion Battery State of Charge and Health with Ultrasonic Guided Waves Using an Efficient Matching Pursuit Technique",
+  "authors": "Ladpli, Liu, Kopsaftopoulos, Chang",
+  "venue": "IEEE Transportation Electrification Conference and Expo, Asia-Pacific (ITEC Asia-Pacific)",
+  "detail": "1–5, 2018",
+  "doi": "10.1109/itec-ap.2018.8433297"
+ },
+ {
+  "kind": "Journal",
+  "year": 2018,
+  "title": "Estimating state of charge and health of lithium-ion batteries with guided waves using built-in piezoelectric sensors/actuators",
+  "authors": "Ladpli, Kopsaftopoulos, Chang",
+  "venue": "Journal of Power Sources",
+  "detail": "384, 342–354, 2018",
+  "doi": "10.1016/j.jpowsour.2018.02.056"
+ },
+ {
+  "kind": "Journal",
+  "year": 2018,
+  "title": "Multifunctional Energy Storage Composite Structures with Embedded Lithium-ion Batteries",
+  "authors": "Ladpli, Nardari, Kopsaftopoulos, Chang",
+  "venue": "Journal of Power Sources",
+  "detail": "414, 517–529, 2018",
+  "doi": "10.1016/j.jpowsour.2018.12.051"
+ },
+ {
+  "kind": "Conference",
+  "year": 2018,
+  "title": "Multifunctional Energy Storage Composites: Analysis and Optimization of Current Density Distribution",
+  "authors": "Ladpli, Chang",
+  "venue": "ECS Meeting Abstracts",
+  "detail": "MA2018-01(1), 130, 2018",
+  "doi": "10.1149/ma2018-01/1/130"
+ },
+ {
+  "kind": "Conference",
+  "year": 2017,
+  "title": "Battery State of Charge Estimation using Guided Waves— Numerical Validation and Statistical Analysis",
+  "authors": "Ladpli, Kopsaftopoulos, Chang",
+  "venue": "IWSHM",
+  "detail": "2017",
+  "doi": "10.12783/shm2017/14066"
+ },
+ {
+  "kind": "Conference",
+  "year": 2017,
+  "title": "Battery charge and health state monitoring via ultrasonic guided-wave-based methods using built-in piezoelectric transducers",
+  "authors": "Ladpli, Kopsaftopoulos, Nardari, Chang",
+  "venue": "SPIE Smart Structures/NDE",
+  "detail": "10171, 1017108, 2017",
+  "doi": "10.1117/12.2260107"
+ },
+ {
+  "kind": "Conference",
+  "year": 2017,
+  "title": "Development of a Multifunctional Stretchable Sensor Network for Smart Structures",
+  "authors": "Chen, Topac, Smith, Ladpli, Cao, Chang",
+  "venue": "IWSHM",
+  "detail": "2017",
+  "doi": "10.12783/shm2017/13927"
+ },
+ {
+  "kind": "Conference",
+  "year": 2017,
+  "title": "Numerical Model for Characterization of Multifunctional Energy Storage Composite Cells, Modules, and Systems",
+  "authors": "Wang, Bombik, Ladpli, Kopsaftopoulos, Chang",
+  "venue": "IWSHM",
+  "detail": "2017",
+  "doi": "10.12783/shm2017/14086"
+ },
+ {
+  "kind": "Journal",
+  "year": 2017,
+  "title": "Pneumatic stimulation of C. elegans mechanoreceptor neurons in a microfluidic trap",
+  "authors": "Nekimken, Fehlauer, Kim, Manosalvas-Kjono, Ladpli, Memon, Gopisetty, Sánchez, Goodman, Pruitt, Krieg",
+  "venue": "Lab on a Chip",
+  "detail": "17(6), 1116–1127, 2017",
+  "doi": "10.1039/c6lc01165a"
+ },
+ {
+  "kind": "Conference",
+  "year": 2016,
+  "title": "Multifunctional Energy Storage Composites: Design, Fabrication, and Experimental Characterization",
+  "authors": "Ladpli, Nardari, Rewari, Liu, Slater, Kepler, Wang, Kopsaftopoulos, Chang",
+  "venue": "ASME International Conference on Energy Sustainability (ES)",
+  "detail": "2016",
+  "doi": "10.1115/es2016-59416"
+ },
+ {
+  "kind": "Conference",
+  "year": 2015,
+  "title": "Decision Making for Reference-Free Damage Detection",
+  "authors": "Hajrya, Kopsaftopoulos, Roy, Ladpli, Chang",
+  "venue": "IWSHM",
+  "detail": "2015",
+  "doi": "10.12783/shm2015/367"
+ },
+ {
+  "kind": "Journal",
+  "year": 2015,
+  "title": "Load monitoring and compensation strategies for guided-waves based structural health monitoring using piezoelectric transducers",
+  "authors": "Roy, Ladpli, Chang",
+  "venue": "Journal of Sound and Vibration",
+  "detail": "351, 206–220, 2015",
+  "doi": "10.1016/j.jsv.2015.04.019"
+ },
+ {
+  "kind": "Conference",
+  "year": 2015,
+  "title": "Multifunctional Energy Storage Composites for SHM Distributed Sensor Networks",
+  "authors": "Ladpli, Nardari, Wang, Hernandez-Gallegos, Rewari, Kuo, Kopsaftopoulos, Kepler, Lopez, Chang",
+  "venue": "IWSHM",
+  "detail": "2015",
+  "doi": "10.12783/shm2015/276"
+ },
+ {
+  "kind": "Journal",
+  "year": 2013,
+  "title": "Sensor Network Configuration Effect on Detection Sensitivity of an Acousto-Ultrasound-Based Active SHM System",
+  "authors": "Janapati, Kopsaftopoulos, Roy, Mueller, Lee, Ladpli, Chang",
+  "venue": "Structural Health Monitoring",
+  "detail": "2013",
+  "doi": ""
+ },
+ {
+  "kind": "Journal",
+  "year": 2013,
+  "title": "Structural Damage Detection Using Ultrasonic Guided Waves Under Varying Ambient Temperature and Loading Environments",
+  "authors": "Roy, Ladpli, Lonkar, Chang",
+  "venue": "Structural Health Monitoring",
+  "detail": "2013",
+  "doi": ""
+ }
+]

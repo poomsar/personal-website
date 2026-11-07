@@ -1,0 +1,15 @@
+<header class="bar">
+  <a class="brand" href="/">Purim Ladpli</a>
+  <nav class="nav">
+    {{- range site.Menus.main }}
+    <a class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}on{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+    {{- end }}
+  </nav>
+  <button class="burger">Menu</button>
+</header>
+<div class="menu">
+  <button class="close">Close</button>
+  {{- range site.Menus.main }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{- end }}
+</div>
